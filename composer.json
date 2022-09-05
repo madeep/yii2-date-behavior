@@ -1,0 +1,36 @@
+{
+  "name": "deepha/date-behavior",
+  "description": "Provides support for conversion Date from to iso86001",
+  "keywords": ["yii2", "active", "record", "date", "smart", "integrity"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/madeep/yii2-date-behavior"
+  },
+  "authors": [
+    {
+      "name": "Mario Di Patria",
+      "email": "mario.dipatria@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.27|^5.0|^6.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"deepha\\date\\behavior\\": "src"}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
